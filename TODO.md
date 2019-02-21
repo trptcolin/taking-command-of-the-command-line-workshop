@@ -1,0 +1,46 @@
+# TODO
+
+- [x] Getting help!
+  - [x] man
+  - [x] command-line options
+- [ ] Readline
+  - [ ] beginning/end of line,
+  - [ ] clear line
+  - [ ] forward/back by word
+  - [ ] search command history
+- [ ] Configuration
+  - [ ] environment variables (especially `PATH`)
+  - [ ] export
+  - [ ] alias
+  - [ ] which
+  - [ ] dotfiles
+- [ ] Navigating and looking around
+  - [ ] cd
+  - [ ] ls
+  - [ ] cat
+  - [ ] less
+  - [ ] head & tail
+- [ ] Changing things (e.g. `mv`, `cp`, `rm`)
+  - [ ] mv
+  - [ ] cp
+  - [ ] rm
+- [ ] Permissions
+  - [ ] chmod
+  - [ ] chown
+  - [ ] sudo
+  - [ ] su
+- [ ] Googling your filesystem
+  - [ ] grep
+  - [ ] find
+- [ ] Pipes, redirection, and subshells
+  - [ ] pipe (sending to a process) `|`
+  - [ ] redirect (sending to a file) (`>`, `<`, `>>`)
+  - [ ] subshells `$(...)` & backticks
+- [ ] Process control - aka why the heck do I have 20 orphaned Spring processes running?
+  - [ ] jobs
+  - [ ] ps
+  - [ ] kill
+- [ ] Shelling out from Ruby
+  - [ ] system
+  - [ ] backticks
+  - [ ] command injection
