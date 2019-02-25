@@ -3,20 +3,22 @@
 - [x] Getting help!
   - [x] man
   - [x] command-line options
-- [ ] Readline
-  - [ ] beginning/end of line,
-  - [ ] clear line
-  - [ ] forward/back by word
-  - [ ] search command history
+- [x] Navigating and looking around
+  - [x] cd
+  - [x] ls
+  - [x] wildcards
+- [x] Readline
+  - [x] beginning/end of line,
+  - [x] clear line
+  - [x] forward/back by word
+  - [x] search command history
 - [ ] Configuration
   - [ ] environment variables (especially `PATH`)
   - [ ] export
   - [ ] alias
   - [ ] which
   - [ ] dotfiles
-- [ ] Navigating and looking around
-  - [ ] cd
-  - [ ] ls
+- [ ] Looking inside files
   - [ ] cat
   - [ ] less
   - [ ] head & tail
