@@ -162,6 +162,18 @@ Instead, let's practice using some of these commands and keystrokes.
 1. Using the manual page for `ls`, find and use the command to show the most recently modified files and directories *last*. Hint: you'll need to use three flags for this in order to do this sorting *and* check those timestamps.
 
 
+## Wrap-up
+
+We've learned:
+
+- how to tell where we are in the directory structure (`pwd`), how to move somewhere else (`cd`), and how to see what files and subdirectories are in a given directory (`ls`)
+- how to use wildcards (`*`) to expand to file paths
+- the most important Readline keystrokes and how to use them to be efficient at the command line
+- how to recall previously-entered commands, both one by one and by searching
+
+Next, we'll start using the pipe operator, one of the most important and powerful features of the Unix command line.
+
+
 ## More resources
 
 - [Readline User Manual][readline_user_manual]

@@ -12,33 +12,33 @@
   - [x] clear line
   - [x] forward/back by word
   - [x] search command history
-- [ ] Configuration
+- [x] Pipes & redirection
+  - [x] pipe (sending to a process) `|`
+  - [x] Looking inside files
+    - [x] cat
+    - [x] less
+    - [x] head & tail
+    - [x] grep
+  - [x] redirect (sending to a file) (`>`, `>>`)
+- [ ] What command am I running *really*?
   - [ ] environment variables (especially `PATH`)
   - [ ] export
   - [ ] alias
   - [ ] which
-  - [ ] dotfiles
-- [ ] Looking inside files
-  - [ ] cat
-  - [ ] less
-  - [ ] head & tail
-- [ ] Changing things (e.g. `mv`, `cp`, `rm`)
-  - [ ] mv
-  - [ ] cp
-  - [ ] rm
 - [ ] Permissions
   - [ ] chmod
   - [ ] chown
   - [ ] sudo
   - [ ] su
+- [ ] Changing things (e.g. `mv`, `cp`, `rm`)
+  - [ ] mv
+  - [ ] cp
+  - [ ] rm
 - [ ] Googling your filesystem
-  - [ ] grep
   - [ ] find
-- [ ] Pipes, redirection, and subshells
-  - [ ] pipe (sending to a process) `|`
-  - [ ] redirect (sending to a file) (`>`, `<`, `>>`)
-  - [ ] subshells `$(...)` & backticks
+  - [ ] grep
 - [ ] Process control - aka why the heck do I have 20 orphaned Spring processes running?
+  - [ ] subshells `$(...)` & backticks
   - [ ] jobs
   - [ ] ps
   - [ ] kill
@@ -46,3 +46,6 @@
   - [ ] system
   - [ ] backticks
   - [ ] command injection
+- [ ] Bonus Round: Configuration
+  - [ ] alias
+  - [ ] dotfiles

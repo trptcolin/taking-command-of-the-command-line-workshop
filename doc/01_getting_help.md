@@ -6,7 +6,8 @@ The Unix command line has been around forever, and it's not known for being part
 But once we invest a little time in learning it well, the command line is a powerful tool that can improve our lives as software developers.
 
 Today's workshop isn't meant to overload you with information.
-I'll be skipping a lot of things as we go through these topics, including things that I actually think are pretty important and useful.
+
+__I'll be skipping a lot of things__ as we go through these topics, including things that I actually think are pretty important and useful.
 I think it can be hard for experienced command line users to resist the tempation to tell new folks *all the things*, but that's what I'm trying to do here.
 Prioritization is critical when we're trying to learn new things.
 
@@ -97,8 +98,6 @@ But we need to be able to read the manual pages to find out or remember what the
 3. Check out the manual page for the `ruby` command and see if you can find any new-to-you options or other insights about the `ruby` program.
 
 
-
-
 ## Differences between platforms
 
 There are often differences in commands between MacOS, Linux (whether on WSL or not), and other Unix variants.
@@ -111,3 +110,13 @@ So if you write a shell script that works on your Mac, you don't *necessarily* k
 If you find yourself in that situation, you've probably got more experimentation ahead of you!
 
 ![](../images/command-variants.png)
+
+
+## Wrap-up
+
+We've learned:
+
+- how to read and enter example Bash commands, ignoring the `$` prefix
+- how to get help and learn more about various commands using the manual pages (`man`)
+
+Next, we'll get better at navigating the command line and directory structure.
