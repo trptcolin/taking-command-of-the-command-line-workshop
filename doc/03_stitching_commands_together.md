@@ -144,7 +144,7 @@ We've learned:
 - how to redirect output from a command into a file with `>` and `>>`
 - how to use `grep` to search input
 
-Next, we'll get some practices with permissions and environment variables (two of the most common command line issue areas), while also learning to change files.
+Next, we'll get some practice with permissions (one of the most common command line problem areas), while also learning to change files.
 
 
 [unnecessary_cat]: http://porkmail.org/era/unix/award.html

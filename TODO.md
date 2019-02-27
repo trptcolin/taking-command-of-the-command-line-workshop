@@ -20,25 +20,27 @@
     - [x] head & tail
     - [x] grep
   - [x] redirect (sending to a file) (`>`, `>>`)
+- [x] Permissions
+  - [x] chmod
+  - [x] chown
+  - [x] sudo
+  - [x] su
+- [x] Changing things (e.g. `mv`, `cp`, `rm`)
+  - [x] touch
+  - [x] mv
+  - [x] cp
+  - [x] rm
 - [ ] What command am I running *really*?
   - [ ] environment variables (especially `PATH`)
   - [ ] export
   - [ ] alias
   - [ ] which
-- [ ] Permissions
-  - [ ] chmod
-  - [ ] chown
-  - [ ] sudo
-  - [ ] su
-- [ ] Changing things (e.g. `mv`, `cp`, `rm`)
-  - [ ] mv
-  - [ ] cp
-  - [ ] rm
 - [ ] Googling your filesystem
   - [ ] find
-  - [ ] grep
+  - [ ] grep -r
+- [ ] Command substitution
+  - [ ] `$(...)` & backticks
 - [ ] Process control - aka why the heck do I have 20 orphaned Spring processes running?
-  - [ ] subshells `$(...)` & backticks
   - [ ] jobs
   - [ ] ps
   - [ ] kill
