@@ -30,14 +30,14 @@
   - [x] mv
   - [x] cp
   - [x] rm
-- [ ] What command am I running *really*?
+- [ ] initialization & configuration
   - [ ] environment variables (especially `PATH`)
   - [ ] export
-  - [ ] alias
-  - [ ] which
-- [ ] Googling your filesystem
-  - [ ] find
-  - [ ] grep -r
+- [x] Googling your filesystem
+  - [x] find
+  - [x] grep -r
+  - [x] which
+  - [x] alias
 - [ ] Command substitution
   - [ ] `$(...)` & backticks
 - [ ] Process control - aka why the heck do I have 20 orphaned Spring processes running?
@@ -51,3 +51,6 @@
 - [ ] Bonus Round: Configuration
   - [ ] alias
   - [ ] dotfiles
+- [ ] Bonus Round: more awesome tools
+  - [ ] Julia Evans' blog & zines
+

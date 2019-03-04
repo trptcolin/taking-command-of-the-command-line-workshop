@@ -190,6 +190,6 @@ We've learned:
 - how to use `mkdir` and `touch` to create files and directories
 - how permissions and ownership impact our ability to do various operations on files and folders
 
-Next, we'll search our filesystems using one tool we've seen already, and one we haven't!
+Next, we'll learn to search our directories, using one tool we've seen already and one we haven't!
 
 [xkcd_sudo]: https://www.xkcd.com/149/
