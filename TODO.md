@@ -30,27 +30,27 @@
   - [x] mv
   - [x] cp
   - [x] rm
-- [ ] initialization & configuration
-  - [ ] environment variables (especially `PATH`)
-  - [ ] export
+- [x] initialization & configuration
+  - [x] environment variables (especially `PATH`)
+  - [x] export
 - [x] Googling your filesystem
   - [x] find
   - [x] grep -r
   - [x] which
   - [x] alias
-- [ ] Command substitution
-  - [ ] `$(...)` & backticks
-- [ ] Process control - aka why the heck do I have 20 orphaned Spring processes running?
-  - [ ] jobs
-  - [ ] ps
-  - [ ] kill
-- [ ] Shelling out from Ruby
-  - [ ] system
-  - [ ] backticks
-  - [ ] command injection
-- [ ] Bonus Round: Configuration
-  - [ ] alias
-  - [ ] dotfiles
-- [ ] Bonus Round: more awesome tools
-  - [ ] Julia Evans' blog & zines
+- [x] Command substitution
+  - [x] `$(...)` & backticks
+- [x] Process control - aka why the heck do I have 20 orphaned Spring processes running?
+  - [x] jobs
+  - [x] ps
+  - [x] kill
+- [x] Shelling out from Ruby
+  - [x] system
+  - [x] backticks
+  - [x] command injection
+- [x] Bonus Round: Configuration
+  - [x] alias
+  - [x] dotfiles
+- [x] Bonus Round: more awesome tools
+  - [x] Julia Evans' blog & zines
 

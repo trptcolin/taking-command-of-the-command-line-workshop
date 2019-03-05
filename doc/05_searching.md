@@ -52,8 +52,8 @@ We saw earlier that you can connect commands with the pipe operator (`|`).
 `find` + `-exec` is another way to connect commands.
 This time, though, instead of connecting standard output to standard input, we're connecting each of a list of files to be part of a __command__.
 
-We can do this in a more general way too, and we'll see that in just a moment.
-But first, a brief interlude!
+We can do this in a more general way too, and we'll see that in the next module.
+But first, let's look at how we can find out what we're doing.
 
 
 ## What am I running?
@@ -125,7 +125,7 @@ If you find that a child process (created by commands you run) isn't getting the
    Read the "INVOCATION" section of `man bash` to find out how to change the starting value of `PATH`.
    If your manual page doesn't have this section, search for `bashrc` or `bash_profile`.
 
-1. Search Github for ["dotfiles"](https://github.com/search?q=dotfiles&type=Repositories), and look for inspiration for your own startup configurations.
+1. Search Github for ["dotfiles"][github_dotfiles], and look for inspiration for your own startup configurations.
    You don't need to understand everything!
    The goal here is just to get some ideas on how to configure your own setup.
    One specific thing that might be interesting is the value of `PROMPT` or `PS1` to make your prompt (the text before you start typing) look nicer.
@@ -146,4 +146,5 @@ We've learned:
 
 
 [12_factor_config]: https://12factor.net/config
+[github_dotfiles]: https://github.com/search?q=dotfiles&type=Repositories
 [xargs_gotchas]: http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html
