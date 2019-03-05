@@ -4,12 +4,13 @@
 
 - Getting help! - the manual pages (`man`, options)
 - Readline (beginning/end of line, clear line, forward/back by word, search command history)
-- Configuration (e.g. environment variables [especially `PATH`], dotfiles, `export`, `alias`, `which`)
-- Navigating and looking around (e.g. `cd`, `ls`, `cat`, `less`, `head`, `tail`)
-- Changing things (e.g. `mv`, `cp`, `rm`)
+- Navigating and looking around (e.g. `cd`, `ls`)
+- Looking at files and filtering (`cat`, `less`, `head`, `tail`, `grep`)
+- Combining programs (pipes & redirection)
 - Permissions (e.g. `chmod`, `chown`, `sudo`, `su`)
-- Googling your filesystem (e.g. `grep`, `find`)
-- Pipes, redirection, and subshells (e.g. `|`, `>`, `<`, `>>`, `$(…)`, backticks)
+- Changing things (e.g. `mkdir`, `touch`, `mv`, `cp`, `rm`)
+- Googling your filesystem (`find`, `grep -r`)
+- Configuration (e.g. environment variables [especially `PATH`], dotfiles, `export`, `alias`, `which`)
 - Process control - aka why the heck do I have 20 orphaned Spring processes running? (e.g. `jobs`, `ps`, `kill`)
 - Shelling out from Ruby (`system` and backticks - watch out for command injection!)
 
