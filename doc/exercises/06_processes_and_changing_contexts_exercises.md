@@ -43,3 +43,5 @@
    Julia has written a bunch of really insightful and useful material on Linux command line tools and other topics, and I highly recommend her work to anyone who will listen!
 
 
+[command_injection]: http://cwe.mitre.org/data/definitions/77.html
+[julia_evans_blog]: https://jvns.ca/

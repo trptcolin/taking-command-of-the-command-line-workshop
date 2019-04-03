@@ -124,6 +124,4 @@ We've learned:
 - how to inspect and set environment variables
 
 
-[12_factor_config]: https://12factor.net/config
-[github_dotfiles]: https://github.com/search?q=dotfiles&type=Repositories
 [xargs_gotchas]: http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html

@@ -56,3 +56,6 @@
 
    It's possible (depending on your machine setup) that you don't have the ability to run `sudo`, and using `su` , but it's still worth knowing about.
    There's a [great XKCD cartoon about sudo][xkcd_sudo].
+
+
+[xkcd_sudo]: https://www.xkcd.com/149/

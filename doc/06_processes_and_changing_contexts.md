@@ -141,7 +141,3 @@ We've seen a lot of features today, but nowhere near all of them, and haven't go
 But hopefully you've seen that the command line is a powerful tool, and also one that you have the power to use well.
 
 Remember that the manual pages are there for you, and you'll be well on your way to Unix command line proficiency!
-
-
-[command_injection]: http://cwe.mitre.org/data/definitions/77.html
-[julia_evans_blog]: https://jvns.ca/

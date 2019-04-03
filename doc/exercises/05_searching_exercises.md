@@ -22,3 +22,7 @@
    Caution: if you create and post your own dotfiles repository, *please* make sure not to include secrets (e.g. API credentials).
    I have known folks who accidentally posted AWS credentials, and had thousands of dollars racked up in bills within hours, even after taking them down very quickly.
    You don't want to be in that situation.
+
+
+[12_factor_config]: https://12factor.net/config
+[github_dotfiles]: https://github.com/search?q=dotfiles&type=Repositories

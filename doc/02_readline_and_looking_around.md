@@ -55,13 +55,18 @@ The `pwd` command's output will change when you use the `cd` command to "change 
 ```shell
 $ pwd
 /Users/colin
-$ cd ~/presentations/command-line/taking-command-of-the-command-line
+$ cd /tmp
 $ pwd
-/Users/colin/presentations/command-line/taking-command-of-the-command-line
+/tmp
+$ cd -
+$ pwd
+/Users/colin
 ```
 
 You might have noticed that the `~` character, when I enter it into the command line, ends up *meaning* my user's home directory, or `/Users/colin` in my case.
 That's also available as an environment variable named `HOME` (we'll cover environment variables later).
+
+And `cd -` takes you back to the last directory you were in!
 
 In any case, once you know your current directory, you no longer need to provide the whole path to look at directory contents.
 We can provide __relative paths__ now, instead of __absolute paths__.
@@ -157,6 +162,5 @@ Next, we'll start using the pipe operator, one of the most important and powerfu
 
 - [Readline User Manual][readline_user_manual]
 
-[option_key]: https://stackoverflow.com/questions/196357/making-iterm-to-translate-meta-key-in-the-same-way-as-in-other-oses
 [readline_user_manual]: https://tiswww.cwru.edu/php/chet/readline/rluserman.html
 [vi_mode]: https://sanctum.geek.nz/arabesque/vi-mode-in-bash/
