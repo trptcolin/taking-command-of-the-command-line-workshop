@@ -74,7 +74,7 @@ This saves off the output, and you could use `cat` or something else later on to
 There are a couple of redirect operators that you'll want to know:
 
 | character | example | meaning |
-|---|---|---|---|
+|---|---|---|
 | `>` | `echo hello > /tmp/redirect_test` | redirect standard output to the given file, creating it if it doesn't exist, and clearing (aka __truncating__) the file if it exists |
 | `>>` | `echo hello >> /tmp/redirect_test` | *append* standard output to the given file |
 
