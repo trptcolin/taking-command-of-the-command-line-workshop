@@ -2,7 +2,7 @@
 
 ## Why? and how?
 
-The Unix command line has been around forever, and it's not known for being particularly user-friendly
+The Unix command line has been around forever, and it's not known for being particularly user-friendly.
 But once we invest a little time in learning it well, the command line is a powerful tool that can improve our lives as software developers.
 
 Today's workshop isn't meant to overload you with information.
@@ -82,20 +82,7 @@ But we need to be able to read the manual pages to find out or remember what the
 
 ## Exercises
 
-1. Bash is the shell that we're running, but it's also a program that we can run directly.
-   We can absolutely run `bash` inside of an existing Bash session (and exit each one with `exit` or `<Ctrl-D>`).
-
-   Run `man bash`.
-   You're going to see a *lot* of information, including some things we'll cover today, but this also goes far beyond a single day's learning.
-   But scroll through it (again: `f` for forwards, and `b` for backwards), and notice the different sections, __looking more closely at any parts that seem interesting to you__.
-
-2. Inside the manual page for `bash`, search for the `-k` option.
-   You'll probably want to use the `h` keystroke to learn how to __search__ the man page.
-
-   Once you've found the `-k` option, notice that there's a command that this option is "equivalent to".
-   Open the manual page for this "equivalent" command, and run it with a few different inputs to get ideas on how you might *search* for a manual page whose name you don't know.
-
-3. Check out the manual page for the `ruby` command and see if you can find any new-to-you options or other insights about the `ruby` program.
+- [Getting Help - Exercises](./exercises/01_getting_help_exercises.md)
 
 
 ## Differences between platforms

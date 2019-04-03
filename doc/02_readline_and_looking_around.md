@@ -9,7 +9,7 @@ For me, this looks like the following:
 
 ```shell
 $ ls ~/presentations/command-line/taking-command-of-the-command-line
-LICENSE.txt     README.md       TODO.md         doc             images
+LICENSE.txt README.md   doc         example_app images
 ```
 
 The argument you pass to `ls` will look different than mine, but the directory contents should look similar.
@@ -23,11 +23,12 @@ Depending on your OS, you may be able to use the manual page for `ls` to figure 
 
 ```shell
 $ ls -l ~/presentations/command-line/taking-command-of-the-command-line
--rw-r--r--@ 1 colin  staff  18652 Feb 19 15:20 LICENSE.txt
--rw-r--r--  1 colin  staff   1579 Feb 19 15:27 README.md
--rw-r--r--  1 colin  staff   1020 Feb 21 12:37 TODO.md
-drwxr-xr-x  7 colin  staff    224 Feb 25 13:05 doc
-drwxr-xr-x  3 colin  staff     96 Feb 20 11:59 images
+total 48
+-rw-r--r--@  1 colin  staff  18652 Feb 19 15:20 LICENSE.txt
+-rw-r--r--   1 colin  staff   1596 Mar  5 12:34 README.md
+drwxr-xr-x  10 colin  staff    320 Mar  5 14:20 doc
+drwxr-xr-x  21 colin  staff    672 Mar  4 14:41 example_app
+drwxr-xr-x   3 colin  staff     96 Feb 20 11:59 images
 ```
 
 If your manual pages don't show what the `-l` format columns mean, or you just don't see it yet, no worries!
@@ -60,7 +61,7 @@ $ pwd
 ```
 
 You might have noticed that the `~` character, when I enter it into the command line, ends up *meaning* my user's home directory, or `/Users/colin` in my case.
-That's also available as an environment variable, `HOME`, which we'll cover later.
+That's also available as an environment variable named `HOME` (we'll cover environment variables later).
 
 In any case, once you know your current directory, you no longer need to provide the whole path to look at directory contents.
 We can provide __relative paths__ now, instead of __absolute paths__.
@@ -68,9 +69,9 @@ If we stay in the directory where we left off above:
 
 ```shell
 $ ls
-LICENSE.txt     README.md       TODO.md         doc             images
-$ ls ./TODO.md
-TODO.md
+LICENSE.txt README.md   doc         example_app images
+$ ls ./README.md
+README.md
 $ ls LICENSE.txt
 LICENSE.txt
 $ ls R*
@@ -137,29 +138,7 @@ That would be impossible.
 
 Instead, let's practice using some of these commands and keystrokes.
 
-1. Use `<ctrl-r>` to search your command line history for a nice long command that'll be fun to edit.
-   - Go to the start of the line.
-   - Go forward two words.
-   - Go to the end of the line.
-   - Go back two words.
-   - Play around going forwards and backwards, and editing the pieces of the command that seem like they might change the next time you run it.
-
-1. Typing `<esc>` multiple times can get pretty annoying, particularly if you've got a certain manufacturer's fancy new laptop without a tactile Escape key.
-   You should be able to remap this to a more convenient keystroke.
-   The mechanism will depend on your terminal program.
-
-   I use iTerm2, and I [remap my Option key to send `<esc>`][option_key].
-   Your terminal program may already have an Alt or Command key standing in as this "Meta" character.
-   Try it out and see.
-   If not, do a search to find out what it is.
-
-   Set this up for your terminal program of choice!
-   If the internet isn't working, no worries - just make a note and come back to this one later.
-
-1. Scroll one entry at a time through your command history and find a command with a file or directory name.
-   Delete that filename or directory, and replace it with another one, *using `<tab>` to ensure you haven't got any typos*.
-
-1. Using the manual page for `ls`, find and use the command to show the most recently modified files and directories *last*. Hint: you'll need to use three flags for this in order to do this sorting *and* check those timestamps.
+- [Readline and Looking Around - Exercises](./exercises/02_readline_and_looking_around_exercises.md)
 
 
 ## Wrap-up
