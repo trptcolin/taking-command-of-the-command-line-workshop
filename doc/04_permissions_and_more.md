@@ -81,19 +81,20 @@ Now here's the payoff: when those permissions and owners/groups don't match what
 
   ```shell
   $ ls -ld playground
-  drw-rw-rw-  4 colin  staff  128 Feb 27 09:11 playground
-  $ chmod u+x playground
-  $ ls -ld playground
-  drw-rw-rw-  4 colin  staff  128 Feb 27 09:11 playground
-  ```
-
-  Notice the `u+x`: I'm saying *for the user*, add the `x` permission.
-  I can remove it again just as easily:
-
-  ```shell
+  drwxr-xr-x  4 colin  staff  128 Feb 27 09:11 playground
   $ chmod u-x playground
   $ ls -ld playground
-  drw-rw-rw-  4 colin  staff  128 Feb 27 09:11 playground
+  drw-r-xr-x  4 colin  staff  128 Feb 27 09:11 playground
+  ```
+
+  Notice the `u-x`: I'm saying *for the owning user*, remove the `x` permission.
+  Kind of nonsensical, maybe, but that's what it does.
+  I can add it back again just as easily:
+
+  ```shell
+  $ chmod u+x playground
+  $ ls -ld playground
+  drwxr-xr-x  4 colin  staff  128 Feb 27 09:11 playground
   ```
 
   Here are the options for that spot where we put the `u` above:
@@ -114,7 +115,7 @@ Now here's the payoff: when those permissions and owners/groups don't match what
   Check out the manual page for the details, but the syntax would look like this if I wanted to change the owner to `root` and the group to `wheel` for the `Gemfile`:
 
    ```shell
-   $ chown root:wheel Gemfile
+   $ chown root:wheel example_app/Gemfile
    ```
 
    There's another big caveat here, because you'll need to be the __super-user__ (aka __`root`__) to change a file's owner.
