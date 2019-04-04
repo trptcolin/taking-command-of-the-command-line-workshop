@@ -17,9 +17,9 @@
 
 ## Background
 
-This workshop was originally presented at RailsConf 2019, and was concurrently
-open-sourced to help out folks who weren't able to attend the workshop at a
-conference, but who still want to get started with the Unix command line.
+This workshop was originally prepared for RailsConf 2019, and was open-sourced
+to help out folks who aren't able to attend the workshop in person, but who
+still want to get started with the Unix command line.
 
 Please feel free to open an issue if you have any questions! It doesn't have to
 be a mistake in the materials, though I'd like to hear about any of those you
