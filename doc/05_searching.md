@@ -58,7 +58,7 @@ But first, let's look at how we can find out what we're doing.
 
 ## What am I running?
 
-Often we might get curious about exactly *what file* is running when I type a given command.
+Often we might get curious about exactly *what program* is running when I type a given command.
 This is usually because something is going wrong, so let's make something go wrong!
 
 ```shell
@@ -105,6 +105,7 @@ playground:[...additional, more legitimate paths, separated by the : character..
 ```
 
 You can reset `PATH` manually if you want, or you could just quit your current shell session and start a new one.
+In the exercises, you'll see how to set these up yourself!
 Environment variables can be send to __child processes__, but they can't be changed and sent back to the *parent* process (for example, the terminal or parent shell that launched `bash`).
 If you find that a child process (created by commands you run) isn't getting the environment variables you meant for it to have, you'll want to use the `export` command.
 
