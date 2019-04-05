@@ -15,6 +15,15 @@
 - Shelling out from Ruby (`system` and backticks - watch out for command injection!)
 
 
+## Prerequisites / Setup
+
+You'll want to be running one of MacOS, Linux, or Windows with the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) installed, and know how to start up your terminal and start up Bash.
+No assumed knowledge beyond that.
+If you're on Windows, please make sure you [install WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - Git Bash has some similarities, and your skills from this workshop will transfer to it, but it's missing many of the utilities you'll need.
+
+You won't need to `bundle install` anything - just cloning the repository is sufficient!
+
+
 ## Background
 
 This workshop was originally prepared for RailsConf 2019, and was open-sourced
