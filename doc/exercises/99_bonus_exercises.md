@@ -21,7 +21,7 @@
    I use Vim as my day-to-day editor (when I'm not in Google Docs or Evernote).
    Don't feel like you need to adopt Vim as your editor, but it's useful to be able to get around a bit.
 
-1. Run `emacs` and type `<ctrl-h>t` to start the Emacs tutorial.
+1. Run `emacs --eval '(help-with-tutorial)'` to start the Emacs tutorial.
    You can quit `emacs` with `<ctrl-x><ctrl-c>`.
    You may need to install Emacs through your package manager for this.
    Don't feel like you need to adopt Emacs as your editor, but it's useful to be able to get around a bit.
