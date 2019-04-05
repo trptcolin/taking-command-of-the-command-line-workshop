@@ -48,3 +48,6 @@
    Search `man bash` for "REDIRECTION" for more fun!
 
    The required counterpoint to the above silliness: Error messages are good actually, because they help us to understand what's going wrong!
+
+1. Check out `tee` (via `man tee`), which copies standard input to both standard output (like `cat`) as well as to a file of your choosing.
+   `tee` can be very useful when you have a pipeline of commands and want to inspect the intermediate results of some step in the middle.
