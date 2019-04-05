@@ -26,6 +26,9 @@ For our purposes today, the version shouldn't matter.
 Day-to-day, I actually use [Zsh](http://zsh.sourceforge.net/), and a lot of folks I know use the [Fish](https://fishshell.com/) shell.
 But Bash comes pre-installed with your MacOS, Linux, or Windows Subsystem for Linux (WSL), and it's helpful for us all to be looking at similar things.
 
+If you're on Windows, you will need to install [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) in order to get the right commands.
+I suggest picking Ubuntu as your distribution.
+
 
 ## Experimentation mindset
 
