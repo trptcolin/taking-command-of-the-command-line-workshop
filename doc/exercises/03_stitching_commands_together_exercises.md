@@ -27,7 +27,7 @@
    ```shell
    $ ls example_app/nothing-here
    ls: example_app/nothing-here: No such file or directory
-   $ bash-3.2$ ls example_app/nothing-here > /dev/null
+   $ ls example_app/nothing-here > /dev/null
    ls: example_app/nothing-here: No such file or directory
    ```
 
