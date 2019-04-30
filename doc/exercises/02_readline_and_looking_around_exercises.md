@@ -34,7 +34,7 @@
    $ cat /etc/hosts
    ```
 
-   Delete that filename or directory, and replace it with another one, *using `<tab>` to ensure you haven't got any typos*.
+   Delete that filename or directory part of the command (WARNING: do NOT delete the actual file - we're just editing the command here), and replace it with another one, *using `<tab>` to ensure you haven't got any typos*.
 
 1. Using the manual page for `ls`, find and use the command to show the most recently modified files and directories *last*. Hint: you'll need to use three flags for this in order to do this sorting *and* check those timestamps.
 
