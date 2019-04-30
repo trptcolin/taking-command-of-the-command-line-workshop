@@ -34,7 +34,7 @@ Please feel free to open an issue if you have any questions! It doesn't have to
 be a mistake in the materials, though I'd like to hear about any of those you
 find as well!
 
-Get in touch with me ([@trptcolin](https://github.com/trptcolin)) if you have
+Get in touch with me ([@trptcolin](https://twitter.com/trptcolin)) if you have
 any questions or would like me to facilitate this workshop at your conference
 or user group.
 
